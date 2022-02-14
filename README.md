@@ -5,4 +5,4 @@
 4. Make a request 
 5.localhost:port/get -> { data: value}
 
-http://127.0.0.1:5000/country_db   ---get top 1o records
+http://127.0.0.1:5000/country_db   ---get top 10 records
