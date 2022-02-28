@@ -6,3 +6,12 @@
 5.localhost:port/get -> { data: value}
 
 http://127.0.0.1:5000/country_db   ---get top 10 records
+
+insert muliple records
+conn.execute(students.insert(), [
+   {'name':'Rajiv', 'lastname' : 'Khanna'},
+   {'name':'Komal','lastname' : 'Bhandari'},
+   {'name':'Abdul','lastname' : 'Sattar'},
+   {'name':'Priya','lastname' : 'Rajhans'},
+])
+
